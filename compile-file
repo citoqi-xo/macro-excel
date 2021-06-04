@@ -1,0 +1,224 @@
+Sub openfile()
+'
+' openfile Macro
+'
+Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\2.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("2.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\3.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("3.xlsx").Activate
+    ActiveWindow.Close
+
+
+Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\4.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("4.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\5.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("5.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\6.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("6.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\7.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("7.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\8.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("8.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\9.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("9.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\10.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("10.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\11.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("11.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\12.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("12.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\13.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("13.xlsx").Activate
+    ActiveWindow.Close
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\14.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("14.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+    Workbooks.Open Filename:="C:\Users\arifika.aop06542\Documents\PaymentVoucher\15.xlsx"
+    Sheets("GRR").Select
+    Range("A1").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.copy
+Windows("Book2.xlsm").Activate
+    Range("A1").Select
+    Selection.End(xlDown).Select
+    ActiveCell.Offset(1, 0).Select
+    
+ActiveSheet.Paste
+Application.CutCopyMode = False
+Windows("15.xlsx").Activate
+    ActiveWindow.Close
+    
+    
+'
+End Sub
